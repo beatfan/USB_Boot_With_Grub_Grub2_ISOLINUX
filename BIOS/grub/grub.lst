@@ -1,0 +1,44 @@
+timeout 10
+default 0
+
+title Win8PE
+	echo $[1106] Loading WIN8PE, Please Wait ...
+	find --set-root /BIOS/grub/grldr
+	map --mem /BIOS/IMGS/WIN8PE.ISO (0xff)
+	map --hook
+	
+	chainloader (0xff)
+
+title MaxDos9 Tools
+	echo $[1106] Loading WIN8PE, Please Wait ...
+	find --set-root /BIOS/grub/grldr
+	map --mem /BIOS/IMGS/MAXDOS.IMG (fd0)
+	map --hook
+	
+	chainloader (fd0)+1
+	rootnoverify (fd0)
+
+title OneKey Ghost
+	echo $[1106] Loading WIN8PE, Please Wait ...
+	find --set-root /BIOS/grub/grldr
+	map --mem /BIOS/IMGS/OKDOS.IMA (fd0)
+	map --hook
+	
+	chainloader (fd0)+1
+	rootnoverify (fd0)
+
+
+title Skip Windows Password
+	echo $[1106] Loading WIN8PE, Please Wait ...
+	find --set-root /BIOS/grub/grldr
+	map --mem /BIOS/IMGS/konboot.img (fd0)
+	map --hook
+	
+	chainloader (fd0)+1
+	rootnoverify (fd0)
+
+title Reboot
+	reboot
+	
+title Halt
+	halt

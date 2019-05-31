@@ -1,0 +1,3 @@
+clonezilla-live-20180812-bionic-amd64
+This Clonezilla live iso file was created by this command:
+ocs-iso -n a -s --extra-boot-param quiet components -y 6.03 -i 20180812-bionic-amd64
