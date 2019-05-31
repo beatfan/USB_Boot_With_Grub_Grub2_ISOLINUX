@@ -1,55 +1,72 @@
-Ò»¡¢ÒÀÀµÈí¼ş£º
-1¡¢ÓÉÓÚÊ¹ÓÃµ½ISOĞ´Èë¹¦ÄÜÒÔ¼°Syslinux v6Òıµ¼£¬±¾ÏîÄ¿ĞèÒªÓÃµ½UltraISO_v9.7»òÒÔÉÏ°æ±¾
+ä¸€ã€ä¾èµ–è½¯ä»¶ï¼š
+1ã€ç”±äºä½¿ç”¨åˆ°ISOå†™å…¥åŠŸèƒ½ä»¥åŠSyslinux v6å¼•å¯¼ï¼Œæœ¬é¡¹ç›®éœ€è¦ç”¨åˆ°UltraISO_v9.7æˆ–ä»¥ä¸Šç‰ˆæœ¬
 
-¶ş¡¢È±Ê§ÎÄ¼şËµÃ÷£º
-ÓÉÓÚ²¿·ÖÎÄ¼şÌ«´ó£¬µÈ´ıÍøÂç½ÏºÃÊ±ÉÏ´«£¬ÁĞ±íÈçÏÂ£º
+äºŒã€ç¼ºå¤±æ–‡ä»¶è¯´æ˜ï¼š
+ç”±äºéƒ¨åˆ†æ–‡ä»¶å¤ªå¤§ï¼Œç­‰å¾…ç½‘ç»œè¾ƒå¥½æ—¶ä¸Šä¼ ï¼Œåˆ—è¡¨å¦‚ä¸‹ï¼š
 /BIOS/IMGS/WIN8PE.iso
 /EFI/WinPE/BOOT.WIM
 /live/filesystem.squashfs
 
 
-Èı¡¢ÌØĞÔËµÃ÷£º
-1¡¢Ö§³ÖBIOSÆô¶¯
-2¡¢Ö§³ÖUEFIÆô¶¯
-3¡¢Ö§³ÖGrub¡¢Grub2¡¢Syslinux
-4¡¢ÄÚÖÃWinPE¼°ÔÙÉúÁúµÈminiÏµÍ³
+ä¸‰ã€ç‰¹æ€§è¯´æ˜ï¼š
+1ã€æ”¯æŒBIOSå¯åŠ¨
+2ã€æ”¯æŒUEFIå¯åŠ¨
+3ã€æ”¯æŒGrubã€Grub2ã€Syslinux
+4ã€å†…ç½®WinPEåŠå†ç”Ÿé¾™ç­‰miniç³»ç»Ÿ
 
 
-ËÄ¡¢ÖÆ×÷ ÍòÄÜUÅÌÆô¶¯ÅÌ Á÷³ÌÈçÏÂ
-1¡¢ĞÂ½¨Êı¾İ¹âÅÌ
-![ĞÂ½¨Êı¾İ¹âÅÌ](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/1.create_new_dataiso.png)
+å››ã€åˆ¶ä½œ ä¸‡èƒ½Uç›˜å¯åŠ¨ç›˜ æµç¨‹å¦‚ä¸‹
 
-2¡¢ÖØÃüÃûÓ³Ïñ£¨ÉÕÂ¼Ö®ºóµÄUÅÌÃû³Æ»á±ä³ÉÕâ¸ö£©
-![ÖØÃüÃûÓ³Ïñ£¨ÉÕÂ¼Ö®ºóµÄUÅÌÃû³Æ»á±ä³ÉÕâ¸ö£©](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/2.rename_iso.png)
+1ã€æ–°å»ºæ•°æ®å…‰ç›˜
 
-3¡¢µ¼ÈëÎÄ¼ş¼Ğ£¨´ËÊ±»¹ÏÔÊ¾²»¿ÉÒıµ¼¹âÅÌ£©
-![µ¼ÈëÎÄ¼ş¼Ğ£¨´ËÊ±»¹ÏÔÊ¾²»¿ÉÒıµ¼¹âÅÌ£©](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/3.import_folders.png)
-
-4¡¢°´Í¼ĞŞ¸ÄISOÊôĞÔ
-![°´Í¼ĞŞ¸ÄISOÊôĞÔ](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/4.change_iso_attribute.png)
-
-5¡¢ÉèÖÃÒıµ¼ÎÄ¼ş£¨Ö÷ÒªÊÇÕë¶ÔBIOS£¬UEFIÖ±½ÓÆô¶¯efiÎÄ¼ş£©
-![ÉèÖÃÒıµ¼ÎÄ¼ş£¨Ö÷ÒªÊÇÕë¶ÔBIOS£¬UEFIÖ±½ÓÆô¶¯efiÎÄ¼ş£©](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/5.set_boot_file.png)
-
-6¡¢ÉèÖÃÒıµ¼ÎÄ¼şÖ®ºó£¬»áÏÔÊ¾¿ÉÒıµ¼¹âÅÌ£¨ÕâÀï×îºÃ½«ISO±£´æ£¬ºóÃæ¾Í¿ÉÒÔÖ»ÓÃÖØ¸´7¡¢8²½Öè£©
-![ÉèÖÃÒıµ¼ÎÄ¼şÖ®ºó£¬»áÏÔÊ¾¿ÉÒıµ¼¹âÅÌ£¨ÕâÀï×îºÃ½«ISO±£´æ£¬ºóÃæ¾Í¿ÉÒÔÖ»ÓÃÖØ¸´7¡¢8²½Öè£©](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/6.show_bootable.png)
-
-7¡¢Ğ´µ½UÅÌÖĞ
-![Ğ´µ½UÅÌÖĞ](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/7.write_to_disk.png)
-
-8¡¢Ğ´Èë¹ı³Ì
-![Ğ´Èë¹ı³Ì](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/8.write_process.png)
+![æ–°å»ºæ•°æ®å…‰ç›˜](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/1.create_new_dataiso.png)
 
 
-Êµ¼ÊÎÄ¼şÁĞ±í
-![Êµ¼ÊÎÄ¼şÁĞ±í](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/file_list.png)
+2ã€é‡å‘½åæ˜ åƒï¼ˆçƒ§å½•ä¹‹åçš„Uç›˜åç§°ä¼šå˜æˆè¿™ä¸ªï¼‰
+
+![é‡å‘½åæ˜ åƒï¼ˆçƒ§å½•ä¹‹åçš„Uç›˜åç§°ä¼šå˜æˆè¿™ä¸ªï¼‰](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/2.rename_iso.png)
+
+
+3ã€å¯¼å…¥æ–‡ä»¶å¤¹ï¼ˆæ­¤æ—¶è¿˜æ˜¾ç¤ºä¸å¯å¼•å¯¼å…‰ç›˜ï¼‰
+
+![å¯¼å…¥æ–‡ä»¶å¤¹ï¼ˆæ­¤æ—¶è¿˜æ˜¾ç¤ºä¸å¯å¼•å¯¼å…‰ç›˜ï¼‰](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/3.import_folders.png)
+
+
+4ã€æŒ‰å›¾ä¿®æ”¹ISOå±æ€§
+
+![æŒ‰å›¾ä¿®æ”¹ISOå±æ€§](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/4.change_iso_attribute.png)
+
+
+5ã€è®¾ç½®å¼•å¯¼æ–‡ä»¶ï¼ˆä¸»è¦æ˜¯é’ˆå¯¹BIOSï¼ŒUEFIç›´æ¥å¯åŠ¨efiæ–‡ä»¶ï¼‰
+
+![è®¾ç½®å¼•å¯¼æ–‡ä»¶ï¼ˆä¸»è¦æ˜¯é’ˆå¯¹BIOSï¼ŒUEFIç›´æ¥å¯åŠ¨efiæ–‡ä»¶ï¼‰](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/5.set_boot_file.png)
+
+
+6ã€è®¾ç½®å¼•å¯¼æ–‡ä»¶ä¹‹åï¼Œä¼šæ˜¾ç¤ºå¯å¼•å¯¼å…‰ç›˜ï¼ˆè¿™é‡Œæœ€å¥½å°†ISOä¿å­˜ï¼Œåé¢å°±å¯ä»¥åªç”¨é‡å¤7ã€8æ­¥éª¤ï¼‰
+
+![è®¾ç½®å¼•å¯¼æ–‡ä»¶ä¹‹åï¼Œä¼šæ˜¾ç¤ºå¯å¼•å¯¼å…‰ç›˜ï¼ˆè¿™é‡Œæœ€å¥½å°†ISOä¿å­˜ï¼Œåé¢å°±å¯ä»¥åªç”¨é‡å¤7ã€8æ­¥éª¤ï¼‰](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/6.show_bootable.png)
+
+
+7ã€å†™åˆ°Uç›˜ä¸­
+![å†™åˆ°Uç›˜ä¸­](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/7.write_to_disk.png)
+
+
+8ã€å†™å…¥è¿‡ç¨‹
+
+![å†™å…¥è¿‡ç¨‹](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/8.write_process.png)
 
 
 
-Îå¡¢·¶Àı
-1¡¢BIOSÆô¶¯
-![BIOSÆô¶¯](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/Examples/example_BIOS.png)
+å®é™…æ–‡ä»¶åˆ—è¡¨
 
-2¡¢UEFIÆô¶¯
-![UEFIÆô¶¯](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/Examples/example_UEFI.png)
+![å®é™…æ–‡ä»¶åˆ—è¡¨](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/file_list.png)
+
+
+
+äº”ã€èŒƒä¾‹
+1ã€BIOSå¯åŠ¨
+![BIOSå¯åŠ¨](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/Examples/example_BIOS.png)
+
+2ã€UEFIå¯åŠ¨
+![UEFIå¯åŠ¨](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/Examples/example_UEFI.png)
 
