@@ -1,4 +1,8 @@
+#file
 /BIOS/IMGS/WIN8PE.iso
 /EFI/WinPE/BOOT.WIM
 /live/filesystem.squashfs
-/ReadME_Image/
+
+
+#folder
+#/ReadME_Image/
