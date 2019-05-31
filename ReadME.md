@@ -1,18 +1,32 @@
 一、依赖软件：
+
 1、由于使用到ISO写入功能以及Syslinux v6引导，本项目需要用到UltraISO_v9.7或以上版本
 
+
 二、缺失文件说明：
+
 由于部分文件太大，等待网络较好时上传，列表如下：
+
 /BIOS/IMGS/WIN8PE.iso
+
 /EFI/WinPE/BOOT.WIM
+
 /live/filesystem.squashfs
 
 
+
+
 三、特性说明：
+
 1、支持BIOS启动
+
 2、支持UEFI启动
+
 3、支持Grub、Grub2、Syslinux
+
 4、内置WinPE及再生龙等mini系统
+
+
 
 
 四、制作 万能U盘启动盘 流程如下
@@ -64,9 +78,14 @@
 
 
 五、范例
+
 1、BIOS启动
+
 ![BIOS启动](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/Examples/example_BIOS.png)
 
+
 2、UEFI启动
+
 ![UEFI启动](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/Examples/example_UEFI.png)
+
 
