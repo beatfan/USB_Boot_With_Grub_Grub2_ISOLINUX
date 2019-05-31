@@ -5,7 +5,6 @@
 #**二、缺失文件说明：**  <br> 
 由于部分文件太大，等待网络较好时上传，列表如下：  <br>
 `/BIOS/IMGS/WIN8PE.iso`  <br> 
-`/EFI/WinPE/BOOT.WIM`  <br>
 `/live/filesystem.squashfs`  <br>
 
   <br>   <br> 
