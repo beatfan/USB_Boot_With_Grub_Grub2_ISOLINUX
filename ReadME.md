@@ -10,7 +10,7 @@
 ##1、支持BIOS启动  <br>
 ##2、支持UEFI启动  <br>
 ##3、支持Grub、Grub2、Syslinux  <br>
-##4、内置Windows维护系统WinPE及Linux维护系统slitaz
+##4、内置Windows维护系统WinPE及Linux维护系统slitaz <br>
 ##5、Clonezilla系统备份（支持Linux系统备份） <br>
 
   <br>   <br> 
