@@ -4,22 +4,19 @@
 ##1、由于使用到ISO写入功能以及Syslinux v6引导，本项目需要用到UltraISO_v9.7或以上版本
   <br>   <br> 
 
-#**二、缺失文件说明：**  <br> 
-暂无
-
-  <br>   <br> 
 
 
-#**三、特性说明：**<br>
+#**二、特性说明：**<br>
 ##1、支持BIOS启动  <br>
 ##2、支持UEFI启动  <br>
 ##3、支持Grub、Grub2、Syslinux  <br>
-##4、内置WinPE及再生龙等mini系统 <br>
+##4、内置Windows维护系统WinPE及Linux维护系统slitaz
+##5、Clonezilla系统备份（支持Linux系统备份） <br>
 
   <br>   <br> 
 
 
-#**四、制作 万能U盘启动盘 流程如下** <br>
+#**三、制作 万能U盘启动盘 流程如下** <br>
 
 ##1、新建数据光盘 <br>
 ![新建数据光盘](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/MakeISO_SOP/1.create_new_dataiso.png)
@@ -50,7 +47,7 @@
   <br>   <br> 
 
 
-#**五、范例**
+#**四、范例**
 
 ##1、BIOS启动  <br> 
 ![BIOS启动](https://github.com/beatfan/USB_Boot_With_Grub_Grub2_ISOLINUX/blob/master/ReadME_Image/Examples/example_BIOS.png)
