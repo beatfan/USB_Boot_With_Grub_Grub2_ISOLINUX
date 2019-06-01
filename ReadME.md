@@ -1,10 +1,11 @@
+**USB万能启动盘**
+
 #**一、依赖软件：**  <br> 
 ##1、由于使用到ISO写入功能以及Syslinux v6引导，本项目需要用到UltraISO_v9.7或以上版本
   <br>   <br> 
 
 #**二、缺失文件说明：**  <br> 
-由于部分文件太大，等待网络较好时上传，列表如下：  <br>
-`/live/filesystem.squashfs`  <br>
+暂无
 
   <br>   <br> 
 

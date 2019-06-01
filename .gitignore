@@ -3,7 +3,7 @@
 
 #/EFI/WinPE/BOOT.WIM
 
-/live/filesystem.squashfs
+#/live/filesystem.squashfs
 
 
 #folder
