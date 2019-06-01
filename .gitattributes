@@ -1,1 +1,2 @@
 /EFI/WinPE/BOOT.WIM filter=lfs diff=lfs merge=lfs -text
+/BIOS/IMGS/WIN8PE.iso filter=lfs diff=lfs merge=lfs -text
